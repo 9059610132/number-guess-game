@@ -1,0 +1,73 @@
+/* Add your styling here */
+body {
+    font-family: Arial, sans-serif;
+background-image: url("images/image1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgb(94, 173, 9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(181, 14, 75, 0.1);
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Your existing CSS styles here */
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  /* Your existing CSS styles here */
+
+.hidden {
+    display: none;
+  }
+  
+  /* Mobile Devices */
+@media (max-width: 767px) {
+    body {
+      align-items: flex-start;
+    }
+  }
+  
+  /* Tablets and Small Desktops */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      max-width: 80%;
+      max-height: 200%;
+      height: auto;
+    }
+  }
+  
+  /* Larger Desktops */
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 60%;
+    }
+  }
+  
